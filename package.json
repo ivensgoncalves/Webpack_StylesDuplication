@@ -1,0 +1,31 @@
+{
+  "name": "webpack_stylesduplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "webpack-dev-server --config webpack1.config.js --open",
+    "start2": "webpack-dev-server --config webpack2.config.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivensgoncalves/Webpack_StylesDuplication.git"
+  },
+  "author": "Ivens Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivensgoncalves/Webpack_StylesDuplication/issues"
+  },
+  "homepage": "https://github.com/ivensgoncalves/Webpack_StylesDuplication#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
